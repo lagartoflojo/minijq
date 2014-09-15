@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.box {
+  width: 33%;
+  padding: 2em;
+  background: white;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box.blue {
+  background: #004186;
+}
+
+.box.big {
+  width: 50%
+}
+
+a, a:visited {
+  color: #333;
+}
+
+a:hover {
+  color: #888;
+}
+
+.box.blue a, .box.blue a:visited {
+  color: #eee;
+}
+
+.box.blue a:hover {
+  color: #ccc;
+}
+
+.separator {
+  color: #ccc;
+  margin: 0 3px;
+}
+
+.links {
+  text-align: center;
+}
